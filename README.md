@@ -6,10 +6,10 @@ To use:
 
     var passport = require('passport'); 
     var WsFedSaml2Strategy= require('./node_modules/passport-wsfed-saml2/lib/passport-wsfed-saml2/index').Strategy; //WS-Federation/SAML plugin for passport
-    var WsFedSaml2MetadataConfiguration= require('WsFedSaml2MetadataConfiguration') //Metadata Config library
+    var Saml2MetadataConfiguration= require('Saml2MetadataConfiguration') //Metadata Config library
 
 
-    WsFedSaml2MetadataConfiguration( {
+    Saml2MetadataConfiguration( {
       metadataUrl:'https://adfs.company.com/federationMetadata/2007-06/FederationMetadata.xml',
       realm: 'urn:your-relying-party-id,
       wreply: 'https://thisapp.company.com/login/callback'
