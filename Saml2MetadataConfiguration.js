@@ -62,4 +62,4 @@ var Saml2MetadataConfiguration = function(options){
   });
 };
 
-exports.Saml2MetadataConfiguration = Saml2MetadataConfiguration;
+exports = Saml2MetadataConfiguration;
