@@ -62,4 +62,4 @@ var Saml2MetadataConfiguration = function(options){
   });
 };
 
-module.exports = WsFedSaml2MetadataConfiguration;
+module.exports = Saml2MetadataConfiguration;
