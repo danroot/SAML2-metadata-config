@@ -2,9 +2,11 @@
 
 Metadata-based configuration of SAML login code is better than configuring URLs and certificates because it ensures certificates between a ID Provider and application stay in sync.  This project provides Metadata-based configuration of the passport-wsfed-saml2 strategy, though it could also be adopted to work with other platforms.
 
-Basic usage:
+npm install saml2-medatada-config
 
-    var Saml2MetadataConfiguration= require('Saml2MetadataConfiguration') 
+Basic usage:    
+
+    var Saml2MetadataConfiguration= require('saml2-metadata-config') 
 
     Saml2MetadataConfiguration.configure( {
       metadataUrl:'https://adfs.company.com/federationMetadata/2007-06/FederationMetadata.xml'     
@@ -14,9 +16,9 @@ Basic usage:
     
 Full example:
 
-    var passport = require('passport'); 
+    var passport = require('passport'); //auth library for express
     var WsFedSaml2Strategy= require('./node_modules/passport-wsfed-saml2/lib/passport-wsfed-saml2/index').Strategy; //WS-Federation/SAML plugin for passport
-    var Saml2MetadataConfiguration= require('Saml2MetadataConfiguration') //Metadata Config library
+    var Saml2MetadataConfiguration= require('saml2-metadata-config') //Metadata Config library
 
 
     Saml2MetadataConfiguration.configure( {
