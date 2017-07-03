@@ -10,7 +10,7 @@
     "node": "6.10.x"
   },
   "repository": {
-    "url": ""
+    "url": "https://github.com/danroot/SAML2-metadata-config"
   },
   "license": "MIT",
   "keywords": [
