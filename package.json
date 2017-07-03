@@ -2,11 +2,10 @@
   "//1": "Metadata-based configuration of SAML login code",
   "//2": "https://docs.npmjs.com/files/package.json",
   "name": "saml2-metadata-config",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "description": "Metadata-based configuration of SAML login code",
-  "dependencies": {
-
-  },
+  "main": "./saml2-metadata-config.js",
+  "dependencies": {},
   "engines": {
     "node": "6.10.x"
   },
