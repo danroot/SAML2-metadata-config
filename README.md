@@ -2,7 +2,7 @@
 
 Metadata-based configuration of SAML login code is better than configuring URLs and certificates because it ensures certificates between a ID Provider and application stay in sync.  This project provides Metadata-based configuration of the passport-wsfed-saml2 strategy, though it could also be adopted to work with other platforms.
 
-npm install saml2-medatada-config
+npm install saml2-metadata-config
 
 Basic usage:    
 
