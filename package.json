@@ -7,7 +7,7 @@
   "main": "./saml2-metadata-config.js",
   "dependencies": {},
   "engines": {
-    "node": "6.10.x"
+    "node": "8.x"
   },
   "repository": {
     "url": "https://github.com/danroot/SAML2-metadata-config"
