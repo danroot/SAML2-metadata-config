@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "description": "Metadata-based configuration of SAML login code",
   "main": "./saml2-metadata-config.js",
-  "dependencies": {},
+  "dependencies": {
+    "xpath": "0.0.27"
+  },
+  "devDependencies": {
+    "@swrlab/swr-prettier-config": "^0.0.2"
+  },
+  "prettier": "@swrlab/swr-prettier-config",
   "engines": {
     "node": ">=8.x"
   },
