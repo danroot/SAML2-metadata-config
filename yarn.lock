@@ -7,7 +7,11 @@
   resolved "https://registry.yarnpkg.com/@swrlab/swr-prettier-config/-/swr-prettier-config-0.0.2.tgz#e961e11520a1ca8eaf8f409721c675cbf3f7e1ed"
   integrity sha512-NPiEQvDNLAREIHrGkJU6CJoCqLoVjMgM6mL2wDcd1RHq+CaZ/xHtsMfUF/4Ay11BxPSkd4JWjc+pTgypz6U7WQ==
 
-xpath@0.0.27:
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.27.tgz#dd3421fbdcc5646ac32c48531b4d7e9d0c2cfa92"
-  integrity sha512-fg03WRxtkCV6ohClePNAECYsmpKKTv5L8y/X3Dn1hQrec3POx2jHZ/0P2qQ6HvsrU1BmeqXcof3NGGueG6LxwQ==
+xmldom@auth0/xmldom#v0.1.19-auth0_1:
+  version "0.1.19"
+  resolved "https://codeload.github.com/auth0/xmldom/tar.gz/3376bc7beb5551bf68e12b0cc6b0e3669f77d392"
+
+xpath@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.7.tgz#2189ab236ed32d3d2cd1cadd85991d91c135b720"
+  integrity sha1-IYmrI27TLT0s0crdhZkdkcE1tyA=

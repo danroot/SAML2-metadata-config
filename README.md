@@ -4,18 +4,21 @@ Metadata-based configuration of SAML login code is better than configuring URLs 
 
 npm install saml2-metadata-config
 
-Basic usage:    
+Basic usage:
 
-    var Saml2MetadataConfiguration= require('saml2-metadata-config') 
+```js
+    var Saml2MetadataConfiguration = require('saml2-metadata-config')
 
     Saml2MetadataConfiguration.configure( {
-      metadataUrl:'https://adfs.company.com/federationMetadata/2007-06/FederationMetadata.xml'     
+      metadataUrl:'https://adfs.company.com/federationMetadata/2007-06/FederationMetadata.xml'
     }).then(function(options){
         //options.identityProviderUrl and options.thumbprints populated.
     });
-    
+```
+
 Full example:
 
+```js
     var passport = require('passport'); //auth library for express
     var WsFedSaml2Strategy= require('./node_modules/passport-wsfed-saml2/lib/passport-wsfed-saml2/index').Strategy; //WS-Federation/SAML plugin for passport
     var Saml2MetadataConfiguration= require('saml2-metadata-config') //Metadata Config library
@@ -39,6 +42,6 @@ Full example:
         },
        function(e){
           console.log(e);
-         // throw "unable to configure using metadata"; //e; 
+         // throw "unable to configure using metadata"; //e;
        });
-
+```

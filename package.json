@@ -4,7 +4,8 @@
   "description": "Metadata-based configuration of SAML login code",
   "main": "./saml2-metadata-config.js",
   "dependencies": {
-    "xpath": "0.0.27"
+    "xpath": "0.0.7",
+    "xmldom": "auth0/xmldom#v0.1.19-auth0_1"
   },
   "devDependencies": {
     "@swrlab/swr-prettier-config": "^0.0.2"
